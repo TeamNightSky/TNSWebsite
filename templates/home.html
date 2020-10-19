@@ -1,32 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="{{ url_for('static' filename='css/home.css') }}">
-		<script>
-			try {
-			                        window.precreatedBoltWorker = new Worker("/_partials/wix-bolt/1.6689.0/node_modules/viewer-platform-worker/dist/bolt-worker.js");
-			                    } catch (e) {}
-		</script>
-		<link rel="preconnect" href="https://siteassets.parastorage.com/pages/singlePage/viewerViewModeJson" crossorigin="">
-		<script async="" id="wix-perf-measure" onload="typeof requirejs === 'function' &amp;&amp; requirejs(['wix-perf-measure'], function() {})" src="https://static.parastorage.com/services/wix-perf-measure/1.258.0/wix-perf-measure.bundle.min.js">
+		<link rel="stylesheet" href={{ url_for('static', filename='css/home.css') }}>
         </script>
-		<script defer="" src="https://static.parastorage.com/services/tag-manager-client/1.186.0/siteTags.bundle.min.js"></script>
 		<title>Home | Team Night Sky</title>
-		<link rel="canonical" href="https://zceboys.wixsite.com/website">
 		<meta property="og:title" content="Home | Team Night Sky">
-		<meta property="og:url" content="https://zceboys.wixsite.com/website">
 		<meta property="og:site_name" content="Team Night Sky">
 		<meta property="og:type" content="website">
 		<meta name="keywords" content="Being, change, need, see, the, to, we">
-		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="main-r.min" src="{{ url_for('static', filename='js/home-min.js')}} crossorigin="anonymous"></script>
-		<link rel="preload" href="{ url_for('static', filename='js/home-min.js')}}" as="script" crossorigin="anonymous">
-		<link rel="preload" href="https://static.parastorage.com/services/wix-bolt/1.6689.0/bolt-main/app/bolt-main-r.animations.js" as="script" crossorigin="anonymous">
-		<link rel="preload" href="https://static.parastorage.com/services/wix-bolt/1.6689.0/bolt-main/app/bolt-main-prod.js" as="script" crossorigin="anonymous">
-		<link rel="preconnect" href="https://social-blog.wix.com/">
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="main-r.min" src={{ url_for('static', filename='js/home-min.js') }} crossorigin="anonymous"></script>
+		<link rel="preload" href={{ url_for('static', filename='js/home-min.js') }} as="script" crossorigin="anonymous">
 		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lodash" src="https://static.parastorage.com/unpkg/lodash@4.17.15/lodash.min.js" crossorigin="anonymous"></script>
-		<script charset="utf-8" src="https://static.parastorage.com/services/wix-bolt/1.6689.0/bolt-main/app/bolt-main-r.vendors~init.js" crossorigin="anonymous"></script>
-		<script charset="utf-8" src="https://static.parastorage.com/services/wix-bolt/1.6689.0/bolt-main/app/bolt-main-r.init.js" crossorigin="anonymous"></script>
-		<script charset="utf-8" src="https://static.parastorage.com/services/wix-bolt/1.6689.0/bolt-main/app/bolt-main-r.animations.js" crossorigin="anonymous"></script>
 		<link rel="preload" href="https://static.parastorage.com/unpkg/santa-components@1.1946.0/dist/santa-components.prod.js" as="script" crossorigin="anonymous">
 		<link rel="preload" href="https://static.parastorage.com/services/wix-bolt/1.6689.0/node_modules/wix-santa/dist/packages-bin/warmupUtils/warmupUtils.min.js" as="script" crossorigin="anonymous">
 		<link rel="preload" href="https://static.parastorage.com/services/wix-bolt/1.6689.0/node_modules/wix-santa/dist/packages-bin/skins/skins.min.js" as="script" crossorigin="anonymous">
@@ -670,29 +654,29 @@
 																			<div id="comp-kgfl0zgb" class="hidden-during-prewarmup style-kgfl1076" style="width: 950px; height: 30px; overflow-x: visible;" data-stretch-buttons-to-menu-width="false" data-same-width-buttons="false" data-num-items="5" data-menuborder-y="0" data-menubtn-border="0" data-ribbon-els="0" data-label-pad="0" data-ribbon-extra="0" data-drophposition="" data-dropalign="left" dir="ltr" data-state="left notMobile" data-dropmode="dropDown">
 																				<nav aria-label="Site" id="comp-kgfl0zgbnavContainer" class="style-kgfl1076navContainer">
 																					<ul style="text-align:left" id="comp-kgfl0zgbitemsContainer" class="style-kgfl1076itemsContainer">
-																						<li data-direction="ltr" data-listposition="left" data-data-id="dataItem-kgfkyzhx" class="style-kgfl1076repeaterButton" data-state="menu selected idle link notMobile" id="comp-kgfl0zgb0" data-original-gap-between-text-and-btn="1" aria-hidden="false" style="width: 60px; height: 30px; position: relative; box-sizing: border-box; overflow: visible;"><a data-listposition="left" aria-haspopup="false" href={{ home_href }} target="_self" id="comp-kgfl0zgb0linkElement" class="style-kgfl1076repeaterButtonlinkElement"><div class="style-kgfl1076repeaterButton_gapper">
+																						<li data-direction="ltr" data-listposition="left" data-data-id="dataItem-kgfkyzhx" class="style-kgfl1076repeaterButton" data-state="menu selected idle link notMobile" id="comp-kgfl0zgb0" data-original-gap-between-text-and-btn="1" aria-hidden="false" style="width: 60px; height: 30px; position: relative; box-sizing: border-box; overflow: visible;"><a data-listposition="left" aria-haspopup="false" href={{ nav1_href }} target="_self" id="comp-kgfl0zgb0linkElement" class="style-kgfl1076repeaterButtonlinkElement"><div class="style-kgfl1076repeaterButton_gapper">
 																									<div style="text-align:left" id="comp-kgfl0zgb0bg" class="style-kgfl1076repeaterButtonbg">
-																										<p style="text-align: left; line-height: 30px;" id="comp-kgfl0zgb0label" class="style-kgfl1076repeaterButtonlabel">Home</p>
+																										<p style="text-align: left; line-height: 30px;" id="comp-kgfl0zgb0label" class="style-kgfl1076repeaterButtonlabel">{{ navlink1 }}</p>
 																									</div>
 																								</div></a></li>
-																						<li data-direction="ltr" data-listposition="center" data-data-id="dataItem-kgfl1fnv" class="style-kgfl1076repeaterButton" data-state="menu  idle link notMobile" id="comp-kgfl0zgb2" data-original-gap-between-text-and-btn="0" aria-hidden="false" style="width: 59px; height: 30px; position: relative; box-sizing: border-box; overflow: visible;"><a data-listposition="center" aria-haspopup="false" href={{ about_href }} target="_self" id="comp-kgfl0zgb2linkElement" class="style-kgfl1076repeaterButtonlinkElement"><div class="style-kgfl1076repeaterButton_gapper">
+																						<li data-direction="ltr" data-listposition="center" data-data-id="dataItem-kgfl1fnv" class="style-kgfl1076repeaterButton" data-state="menu  idle link notMobile" id="comp-kgfl0zgb2" data-original-gap-between-text-and-btn="0" aria-hidden="false" style="width: 59px; height: 30px; position: relative; box-sizing: border-box; overflow: visible;"><a data-listposition="center" aria-haspopup="false" href={{ nav2_href }} target="_self" id="comp-kgfl0zgb2linkElement" class="style-kgfl1076repeaterButtonlinkElement"><div class="style-kgfl1076repeaterButton_gapper">
 																									<div style="text-align:left" id="comp-kgfl0zgb2bg" class="style-kgfl1076repeaterButtonbg">
-																										<p style="text-align: left; line-height: 30px;" id="comp-kgfl0zgb2label" class="style-kgfl1076repeaterButtonlabel">About</p>
+																										<p style="text-align: left; line-height: 30px;" id="comp-kgfl0zgb2label" class="style-kgfl1076repeaterButtonlabel">{{ navlink2 }}</p>
 																									</div>
 																								</div></a></li>
-																						<li data-direction="ltr" data-listposition="center" data-data-id="dataItem-kgfl1yun" class="style-kgfl1076repeaterButton" data-state="menu  idle link notMobile" id="comp-kgfl0zgb3" data-original-gap-between-text-and-btn="1" aria-hidden="false" style="width: 45px; height: 30px; position: relative; box-sizing: border-box; overflow: visible;"><a data-listposition="center" aria-haspopup="false" href={{ join_href }} target="_self" id="comp-kgfl0zgb3linkElement" class="style-kgfl1076repeaterButtonlinkElement"><div class="style-kgfl1076repeaterButton_gapper">
+																						<li data-direction="ltr" data-listposition="center" data-data-id="dataItem-kgfl1yun" class="style-kgfl1076repeaterButton" data-state="menu  idle link notMobile" id="comp-kgfl0zgb3" data-original-gap-between-text-and-btn="1" aria-hidden="false" style="width: 45px; height: 30px; position: relative; box-sizing: border-box; overflow: visible;"><a data-listposition="center" aria-haspopup="false" href={{ nav3_href }} target="_self" id="comp-kgfl0zgb3linkElement" class="style-kgfl1076repeaterButtonlinkElement"><div class="style-kgfl1076repeaterButton_gapper">
 																									<div style="text-align:left" id="comp-kgfl0zgb3bg" class="style-kgfl1076repeaterButtonbg">
-																										<p style="text-align: left; line-height: 30px;" id="comp-kgfl0zgb3label" class="style-kgfl1076repeaterButtonlabel">Join</p>
+																										<p style="text-align: left; line-height: 30px;" id="comp-kgfl0zgb3label" class="style-kgfl1076repeaterButtonlabel">{{ navlink3 }}</p>
 																									</div>
 																								</div></a></li>
-																						<li data-direction="ltr" data-listposition="center" data-data-id="dataItem-kgfl1zn2" class="style-kgfl1076repeaterButton" data-state="menu  idle link notMobile" id="comp-kgfl0zgb4" data-original-gap-between-text-and-btn="0" aria-hidden="false" style="width: 82px; height: 30px; position: relative; box-sizing: border-box; overflow: visible;"><a data-listposition="center" aria-haspopup="false" href={{ projects_href }} target="_self" id="comp-kgfl0zgb4linkElement" class="style-kgfl1076repeaterButtonlinkElement"><div class="style-kgfl1076repeaterButton_gapper">
+																						<li data-direction="ltr" data-listposition="center" data-data-id="dataItem-kgfl1zn2" class="style-kgfl1076repeaterButton" data-state="menu  idle link notMobile" id="comp-kgfl0zgb4" data-original-gap-between-text-and-btn="0" aria-hidden="false" style="width: 82px; height: 30px; position: relative; box-sizing: border-box; overflow: visible;"><a data-listposition="center" aria-haspopup="false" href={{ nav4_href }} target="_self" id="comp-kgfl0zgb4linkElement" class="style-kgfl1076repeaterButtonlinkElement"><div class="style-kgfl1076repeaterButton_gapper">
 																									<div style="text-align:left" id="comp-kgfl0zgb4bg" class="style-kgfl1076repeaterButtonbg">
-																										<p style="text-align: left; line-height: 30px;" id="comp-kgfl0zgb4label" class="style-kgfl1076repeaterButtonlabel">Projects</p>
+																										<p style="text-align: left; line-height: 30px;" id="comp-kgfl0zgb4label" class="style-kgfl1076repeaterButtonlabel">{{ navlink4 }}</p>
 																									</div>
 																								</div></a></li>
 																						<li data-listposition="center" class="style-kgfl1076repeaterButton" data-state="menu  idle header notMobile" id="comp-kgfl0zgb__more__" data-original-gap-between-text-and-btn="1" aria-hidden="true" style="height: 0px; overflow: hidden; position: absolute;"><a data-listposition="center" tabindex="-1" aria-haspopup="true" id="comp-kgfl0zgb__more__linkElement" class="style-kgfl1076repeaterButtonlinkElement"><div class="style-kgfl1076repeaterButton_gapper">
 																									<div style="text-align:left" id="comp-kgfl0zgb__more__bg" class="style-kgfl1076repeaterButtonbg">
-																										<p style="text-align:left" id="comp-kgfl0zgb__more__label" class="style-kgfl1076repeaterButtonlabel">More</p>
+																										<p style="text-align:left" id="comp-kgfl0zgb__more__label" class="style-kgfl1076repeaterButtonlabel"></p>
 																									</div>
 																								</div></a></li>
 																					</ul>
