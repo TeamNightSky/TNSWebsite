@@ -1,0 +1,7 @@
+.replit
+
+venv/
+.idea/
+.vscode/
+
+*.pyc
