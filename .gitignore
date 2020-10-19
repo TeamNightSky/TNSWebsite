@@ -1,0 +1,10 @@
+.replit
+
+venv/
+.idea/
+.vscode/
+
+*.pyc
+
+*.toml
+*.lock
