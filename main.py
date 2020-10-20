@@ -7,8 +7,9 @@ app = Flask(__name__)
 def home():
     return render_template(
         'home.html',
+        icon_href='https://www.pngrepo.com/png/296672/180/planet-galaxy.png',
         nav1_href='/',
-        nav2_href='/',
+        nav2_href='/about',
         nav3_href='https://github.com/TeamNightSky',
         nav4_href='/',
         emails='zceboys@gmail.com',
@@ -23,6 +24,11 @@ def home():
 @app.route('/github')
 def github():
     return redirect('https://github.com/TeamNightSky')
+
+
+@app.route('/about')
+def about():
+    return 'about'
 
 
 if __name__ == '__main__':
